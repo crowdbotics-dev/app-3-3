@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "fastlane", "~>2.205.0"
 gem "httparty"
 gem "cocoapods"
+gem "xcode-install"
 
 android_plugins_path = File.join(
   File.dirname(__FILE__), 'android', 'fastlane', 'Pluginfile'
